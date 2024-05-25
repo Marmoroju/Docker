@@ -1,5 +1,5 @@
-<h2>Script para levantar a VM com Docker + Trivy e <br>
-dando adicionando o vagrant ao grupo docker</h2>
+<h3>Script para levantar a VM com Docker + Trivy e <br>
+adicionando o vagrant ao grupo docker</h3>
 <br>
 <br>
 <h2>Docker Multistage</h2>
