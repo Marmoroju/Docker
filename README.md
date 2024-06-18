@@ -1,11 +1,18 @@
-<h3>Script para levantar a VM com Docker + Trivy e <br>
-adicionando o vagrant ao grupo docker</h3>
-<br>
-<br>
-<h2>Docker Multistage</h2>
-<br>
-<h3>Dockerfile</h3>
-<p>docker image build -t app-go:1.0 .</p>
-<p>docker container run -ti --name meu-go app-go:1.0</p>
+# Script para levantar a VM com Docker + Trivy e
+adicionando o vagrant ao grupo docker
+
+## Docker Multistage
+
+```bash
+#Dockerfile
+#Build da imagem
+
+docker image build -t app-go:1.0 .
+```
+
+```bash
+#Executando a imagem
+docker container run -ti --name meu-go app-go:1.0
+``` 
 
 
