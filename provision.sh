@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/sh
 sudo yum -y update \
      yum -y upgrade \
      yum -y clean
