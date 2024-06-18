@@ -14,5 +14,6 @@ sudo usermod -aG docker vagrant
 sudo systemctl start docker
 sudo systemctl enable docker 
 
+# Download e Instalação do Trivy Scaner
 curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin v0.18.3
 
